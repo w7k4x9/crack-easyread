@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<style>
+  body { width: 260px; margin: 0; padding: 16px; font: 15px/1.4 "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; background: #1b1b1b; color: #eee; }
+  h1 { font-size: 16px; margin: 0 0 14px; }
+  .row { margin-bottom: 16px; }
+  .label { display: flex; justify-content: space-between; margin-bottom: 6px; }
+  .val { color: #ffb38a; font-weight: 600; }
+  input[type=range] { width: 100%; accent-color: #ff6a3d; }
+  .check { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+  .check input { width: 18px; height: 18px; accent-color: #ff6a3d; }
+  .sample { margin-top: 4px; padding: 10px; border-radius: 8px; background: #111; line-height: 1.7; }
+  .q { background: rgba(255,255,255,.14); }
+  button { width: 100%; padding: 8px; border: 1px solid #444; border-radius: 6px; background: #262626; color: #ccc; cursor: pointer; font: inherit; }
+</style>
+</head>
+<body>
+  <h1>크랙 크게 읽기</h1>
+
+  <div class="row">
+    <div class="label"><span>글자 크기</span><span class="val" id="sizeVal"></span></div>
+    <input type="range" id="size" min="14" max="30" step="1">
+  </div>
+
+  <div class="row">
+    <div class="label"><span>줄 간격</span><span class="val" id="lhVal"></span></div>
+    <input type="range" id="lineHeight" min="1.4" max="2.2" step="0.05">
+  </div>
+
+  <div class="row">
+    <label class="check"><input type="checkbox" id="highlight"> 대사 강조 켜기</label>
+  </div>
+
+  <div class="row">
+    <div class="label"><span>강조 진하기</span><span class="val" id="strVal"></span></div>
+    <input type="range" id="strength" min="5" max="35" step="1">
+  </div>
+
+  <div class="row sample" id="sample">가브리엘 | <span class="q" id="sampleQ">"Next to it."</span> (바로 옆에.)</div>
+
+  <button id="reset">기본값으로</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
