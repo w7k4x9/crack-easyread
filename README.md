@@ -9,10 +9,9 @@
 
 ## 설치
 
-1. Tampermonkey 아이콘에서 **대시보드**를 엽니다.
-2. **+** 탭(새 스크립트)을 누릅니다.
-3. 기본으로 들어 있는 내용을 지우고 [`crack-easyread.user.js`](crack-easyread.user.js) 전체를 붙여넣습니다.
-4. **Ctrl+S**로 저장하고 크랙 탭을 새로고침합니다.
+Tampermonkey가 설치된 상태에서 아래 링크를 누르고 **설치**를 누르면 끝입니다. 나중에 고친 버전도 Tampermonkey가 알아서 업데이트해요.
+
+**[▶ 설치하기](https://raw.githubusercontent.com/w7k4x9/crack-easyread/main/crack-easyread.user.js)**
 
 ## 사용
 

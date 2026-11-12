@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         크랙 크게 읽기
 // @namespace    https://github.com/w7k4x9/crack-easyread
-// @version      1.1.0
+// @version      1.1.1
+// @downloadURL  https://raw.githubusercontent.com/w7k4x9/crack-easyread/main/crack-easyread.user.js
+// @updateURL    https://raw.githubusercontent.com/w7k4x9/crack-easyread/main/crack-easyread.user.js
 // @description  크랙 채팅 글자 크기 키우기 + 따옴표 대사 반투명 강조. 다른 기능은 없습니다.
 // @match        https://crack.wrtn.ai/*
 // @run-at       document-idle
